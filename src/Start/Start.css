@@ -1,0 +1,41 @@
+.start-div {
+    text-align: center;
+    padding-top: 100px;
+    background-image: url('/src/pictures/millionare.png');
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  .start-div h1 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+  }
+
+  .start-div p  {
+    font-size: larger;
+    margin-bottom: 50px;
+  }
+  
+  .start-div button {
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 60px;
+  }
+  
+  .start-div button:hover {
+    background-color: #0056b3;
+  }

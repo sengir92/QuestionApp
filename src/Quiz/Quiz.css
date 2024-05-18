@@ -1,0 +1,61 @@
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/src/pictures/start.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .question-section {
+    background-color: rgba(0, 0, 128, 0.8); /* Mavi şeffaf arka plan */
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    color: white;
+    text-align: center;
+  }
+  
+  .question-count {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .media-section {
+    margin-bottom: 20px;
+  }
+  
+  .media-section img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .answer-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .answer-options button {
+    background-color: #3333ff; /* Buton rengi */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 1 calc(50% - 10px); /* İki sütun düzeni */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .answer-options button:hover {
+    background-color: #0000cc; /* Hover rengi */
+  }
