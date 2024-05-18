@@ -13,6 +13,13 @@
     color: white; 
     font-family: Arial, sans-serif; 
     box-sizing: border-box;
+    
+  }
+  .container-box {
+    background-color: rgb(15, 15, 66);
+    padding: 2rem;
+    opacity: 0.8;
+    border-radius: 12px;
   }
   
   .result-container h2 {
@@ -22,9 +29,11 @@
 
   .result-answers {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    max-width: 1200px; /* Maksimum genişlik belirleyebilirsiniz */
+    max-width: 1200px;
+    align-items: flex-start;
+    gap: 10rem;
   }
   
   .result-container p {
@@ -54,9 +63,11 @@
   
   .trueanswer {
     color: #28a745; 
+    font-weight: 700;
     
   }
   
   .falseanswer {
     color: #dc3545; 
+    font-weight: 700;
   }

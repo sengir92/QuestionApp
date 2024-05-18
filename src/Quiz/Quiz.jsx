@@ -29,14 +29,14 @@ const Quiz = () => {
     const timer = setTimeout(() => {
       setCurrentQuestion(prev => prev +1);
      
-    }, 30000)
+    }, 3000)
     return () => clearTimeout(timer);
   }, [currentQuestion])
 
   useEffect (() => {
     const timer = setTimeout(() => {
       setShowOptions(true);
-    }, 10000)
+    }, 1000)
     return () => setShowOptions(false);
   },[currentQuestion])
 
